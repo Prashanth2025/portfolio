@@ -3,58 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prashanth | Portfolio</title>
+    <title>Prashanth's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="header">
-        <h1 class="logo">Prashanth</h1>
+    <header>
+        <h1>Prashanth</h1>
+        <p>UI/UX Designer & Developer</p>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="prashanth_resume.pdf" download="prashanth_resume.pdf" class="resume-btn">Download Resume</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section id="home" class="home-section">
-        <h2>Hi, I'm <span>Prashanth</span></h2>
-        <p>Aspiring UI/UX Designer & Web Developer</p>
-        <button onclick="scrollToSection('projects')">View My Work</button>
-    </section>
-
-    <section id="about" class="about-section">
+    <section id="about">
         <h2>About Me</h2>
-        <p>I am a BCA final-year student passionate about design and development. Skilled in React, Python, and Figma, I create user-friendly and visually appealing applications.</p>
+        <p>I am a passionate UI/UX designer and developer with expertise in front-end technologies.</p>
+        <a href="prashanth_resume.pdf" download="prashanth_resume.pdf" class="resume-btn">Download Resume</a>
     </section>
 
-    <section id="projects" class="projects-section">
+    <section id="projects">
         <h2>Projects</h2>
-        <div class="project-card">
-            <a href="https://farmer-ai-x2hw.onrender.com" target="_blank">
-                Farming Web Service (AI)
-            </a>
+        <div class="project">
+            <h3>Farming Web Service Using AI</h3>
+            <p>A project that integrates AI to assist farmers with crop prediction, market prices, and weather forecasting.</p>
+            <a href="https://github.com/Prashanth2025/farming-web-service" target="_blank">View Project</a>
         </div>
     </section>
 
-    <section id="contact" class="contact-section">
+    <section id="contact">
         <h2>Contact Me</h2>
-        <p>
-            <a href="mailto:yourmail@example.com" target="_blank" class="contact-link">Email: yourmail@example.com</a>
-        </p>
-        <p>
-            <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" class="contact-link">LinkedIn: linkedin.com/in/yourprofile</a>
-        </p>
-        <p>
-            <a href="https://github.com/yourusername" target="_blank" class="contact-link">GitHub: github.com/yourusername</a>
-        </p>
+        <a href="mailto:prashanthramesh.02@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/prashanth-ramesh-9522b72a2" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Prashanth2025" target="_blank">GitHub</a>
     </section>
-
-    <footer>
-        <p>© 2025 Prashanth</p>
-    </footer>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
